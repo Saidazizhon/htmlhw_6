@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 60px;
+    gap: 50px;
+}
+.navbar__collection{
+    display: flex;
+    color: black;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+.navbar__itemen{
+    font-size: 18px;
+}
+.navbar__div{
+    width: 100px;
+    height: 100px;
+}
+.navbar__logosafia{
+    width: 95px;
+    border-radius: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+.navbar__logosafia img{
+    width: 95px;
+    height: 95px;
+    object-fit: contain;
+}
+.navbar__tel{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: none;;
+}
+.img-{
+    width: 100%;
+    height: 500px;
+}
+.p{
+    margin: 50px;
+}
+.btn{
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background: burlywood;
+    padding: 10px;
+    margin: 0 30px;
+}
+.h2{
+    background: burlywood;   
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+.card{
+flex-wrap: wrap ;
+height: 250px;
+width: 250px;
+margin: 10px ;
+text-align: center;
+}
+.card img{
+    height: 220px;
+    width: 220px;
+}
